@@ -8,5 +8,5 @@
 * цикли
 * класове
 * линкове - [gong](http://gong.bg)
-* снимки - ![моята снимка](C:\My Documents\My\My_Photo.jpg)
+* снимки - ![GitHub Logo](/images/logo.png)
 * други
