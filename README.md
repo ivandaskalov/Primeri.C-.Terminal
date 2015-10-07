@@ -1,2 +1,2 @@
-# Primeri.C-.Terminal
+# Primeri.C#.Terminal
 Първо - тестово, репозитори в курса на Аула за C#
