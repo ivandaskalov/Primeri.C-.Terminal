@@ -1,0 +1,4 @@
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\Modul02\bin\Debug\Modul02.exe
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\Modul02\bin\Debug\Modul02.pdb
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\Modul02\obj\x86\Debug\Modul02.exe
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\Modul02\obj\x86\Debug\Modul02.pdb
