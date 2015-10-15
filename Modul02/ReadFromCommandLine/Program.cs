@@ -14,11 +14,12 @@ namespace ReadFromCommandLine
 //			b = Convert.ToInt32(Console.ReadLine ());
 			string c = Console.ReadLine ();
 			if (int.TryParse (c, out b)) {
-				//Код ако потребителя е въвел коректно число
+				//Код ако потребителя условието е изпълнено (въвел е цяло число)
 				//Печат на резултат
-				Console.WriteLine ("Резултата a + b е " + (a + b).ToString () + "\n\n\n");
-			} else 
-			{
+				Console.WriteLine ("Резултата a ("+a.ToString("D")+") + b ("+b.ToString("D")+") е " + (a + b).ToString ("D") + "\n\n\n");
+			} else {
+				//Код ако потребителя условието не е изпълнено (не е въвел цяло число)
+				//Печат на грешката
 				Console.WriteLine ("\n\nМоля въведете цяло число!!! Вие въведохте '"+c+"'!");
 			}
 		}
