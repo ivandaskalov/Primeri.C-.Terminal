@@ -1,0 +1,4 @@
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\ReadFromCommandLine\bin\Debug\ReadFromCommandLine.exe
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\ReadFromCommandLine\bin\Debug\ReadFromCommandLine.pdb
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\ReadFromCommandLine\obj\x86\Debug\ReadFromCommandLine.exe
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\ReadFromCommandLine\obj\x86\Debug\ReadFromCommandLine.pdb

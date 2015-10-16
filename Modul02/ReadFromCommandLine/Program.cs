@@ -22,6 +22,24 @@ namespace ReadFromCommandLine
 				//Печат на грешката
 				Console.WriteLine ("\n\nМоля въведете цяло число!!! Вие въведохте '"+c+"'!");
 			}
+
+			string test = "1";
+			test += ", 2";
+			test += ", 100";
+			test += ", 4";
+			test += ", 5";
+
+
+			Console.WriteLine ("Събираме с += : "+test+"\n");
+
+			test = test.Replace (", ", ";");
+
+			Console.WriteLine ("Работа с  Repalce : "+test+"\n");
+
+
+			Console.WriteLine ("Трети знак: "+test.Split(';')[2]+"\n");
+
+
 		}
 	}
 }
