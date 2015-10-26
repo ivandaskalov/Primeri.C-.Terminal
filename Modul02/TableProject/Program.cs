@@ -19,7 +19,7 @@ namespace TableProject
 
 			//Отпечатване в конзолата
 			Console.Write("Кой ред искате да видите?");
-			int _index = int.Parse(Console.ReadLine ()) - 1;
+			int _index = Convert.ToInt32(Console.ReadLine ()) - 1;
 			Console.WriteLine (table[_index,0][0]+". "+table[_index,1]+", "+table[_index,2]+" г.");
 			Console.WriteLine ();
 
