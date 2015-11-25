@@ -1,0 +1,4 @@
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\TableProject\bin\Release\TableProject.exe
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\TableProject\bin\Release\TableProject.pdb
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\TableProject\obj\x86\Release\TableProject.exe
+C:\My Documents\AULA\Primeri.C#.Terminal\Modul02\TableProject\obj\x86\Release\TableProject.pdb
