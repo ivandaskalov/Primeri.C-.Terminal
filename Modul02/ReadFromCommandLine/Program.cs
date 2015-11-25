@@ -23,7 +23,7 @@ namespace ReadFromCommandLine
 				Console.WriteLine ("\n\nМоля въведете цяло число!!! Вие въведохте '"+c+"'!");
 			}
 
-			string test = "1";
+			string test = "1";	
 			test += ", 2";
 			test += ", 100";
 			test += ", 4";

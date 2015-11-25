@@ -3,8 +3,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="TableProject\Program.cs">
     <Files>
       <File FileName="Modul02\Program.cs" Line="1" Column="1" />
-      <File FileName="ReadFromCommandLine\Program.cs" Line="29" Column="11" />
-      <File FileName="TableProject\Program.cs" Line="15" Column="38" />
+      <File FileName="ReadFromCommandLine\Program.cs" Line="1" Column="1" />
+      <File FileName="TableProject\Program.cs" Line="52" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
