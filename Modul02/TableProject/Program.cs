@@ -28,7 +28,7 @@ namespace TableProject
 				table[_index,(int)ti.age]			+" г.");
 			Console.WriteLine ();
 
-			Console.ReadLine ();
+			//Console.ReadLine ();
 		}
 	}
 }
