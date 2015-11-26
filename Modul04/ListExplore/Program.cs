@@ -37,14 +37,14 @@ namespace ListExplore
 				//Преглед на стойност в List
 				if(_userinput.ToLower().Contains ("show"))
 				{
-					Console.Write("_list: ");
-					for (int i = 0; i < _list.Count; i++)
+					Console.Write("Списък: ");
+
+					foreach(int value in _list)
 					{
-						Console.Write(_list[i]);
-						if(i != _list.Count - 1) 
-							Console.Write(", ");
+						Console.Write(value.ToString() + ", ");
 					}
-					Console.WriteLine();
+
+					Console.WriteLine("\n");
 				}
 
 				//Размер на стойност в List
