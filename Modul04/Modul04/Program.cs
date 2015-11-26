@@ -27,13 +27,28 @@ namespace Modul04
 //				Console.WriteLine ();
 //			}
 
-			//Пример с while
+//			//Пример с while
+//			int i=0;
+//			while(i < _table.GetLength(0))
+//			{
+//				Console.WriteLine (
+//			_table[i,0].PadRight(12) + 
+//			_table[i,1].PadRight(12) + 
+//			_table[i,2].PadRight(12));
+//				i++;
+//			}
+
+			//Пример с do ... while
 			int i=0;
-			while(i < _table.GetLength(0))
+			do
 			{
-				Console.WriteLine (_table[i,0].PadRight(12) + _table[i,1].PadRight(12) + _table[i,2].PadRight(12));
+				Console.WriteLine (
+					_table[i,0].PadRight(12) + 
+					_table[i,1].PadRight(12) + 
+					_table[i,2].PadRight(12));
 				i++;
 			}
+			while(i < _table.GetLength(0));
 
 		}
 	}
