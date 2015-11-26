@@ -6,8 +6,13 @@ namespace Modul04
 	{
 		public static void Main (string[] args)
 		{
-			for (int i = 0; i <= 5; i+=2) {
-				Console.WriteLine (i.ToString());
+			string[] _table = {"Иван", "Гошо", "Гергана"};
+
+			//Антетка за таблицата
+			Console.WriteLine ("Име");
+			Console.WriteLine ("=============");
+			for (int i = 0; i < _table.Length; i++) {
+				Console.WriteLine (_table[i]);
 			}
 		}
 	}
