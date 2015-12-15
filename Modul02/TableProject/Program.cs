@@ -12,7 +12,7 @@ namespace TableProject
 			int n = 2;
 			int m = 3;
 			string[,] table = new string[n, m];
-
+			 
 			//Въвеждане на първи ред
 			table [0,(int)ti.name] = "Иван"; table [0,(int)ti.familyName] = "Георгиев"; table [0,(int)ti.age] = "41";
 

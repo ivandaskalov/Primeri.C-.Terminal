@@ -22,16 +22,22 @@ namespace Modul05
 					{
 						Console.WriteLine("a * a = " +_a.ToString());
 					}
+					else
+					{
+						Console.WriteLine("Командата не е въведена коректно!");
+					}
 				}
-
-				double _t = 5, _c = -2;
-				if(cmd04(ref _t))
+				if(usercommand.Contains ("cmd04"))
 				{
-					Console.WriteLine(_t);
-				}
-				if(cmd04(ref _c))
-				{
-					Console.WriteLine(_c);
+					double _t = 5, _c = -2;
+					if(cmd04(ref _t))
+					{
+						Console.WriteLine(_t);
+					}
+					if(cmd04(ref _c))
+					{
+						Console.WriteLine(_c);
+					}
 				}
 
 			} while (!usercommand.ToLower ().Contains ("exit"));
@@ -76,11 +82,9 @@ namespace Modul05
 					_i = __p * __p;
 					return true;
 				}
-				else
-				{
-					Console.WriteLine("Командата не е въведена коректно!");
-				}
+				//__p = Convert.ToDouble(_p);
 			}catch{
+				//Console.WriteLine ("Грешка в catch");
 			}
 
 			_i = 0;
